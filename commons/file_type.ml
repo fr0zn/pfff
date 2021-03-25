@@ -49,7 +49,7 @@ and pl_type =
   | Java | Kotlin | Csharp
   | ObjectiveC of string
   | Swift
-
+  | Solidity
   | Perl | Python | Ruby | Lua | R
 
   | Erlang
@@ -146,6 +146,7 @@ let file_type_of_file2 file =
   | "java" -> PL Java
   | "kt" -> PL Kotlin
   | "cs" -> PL Csharp
+  | "sol" -> PL Solidity
 
   | "p" -> PL Pascal
 

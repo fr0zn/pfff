@@ -16,6 +16,7 @@ and pl_type =
   | Script of string
   | C of string | Cplusplus of string | Java | Kotlin | Csharp | ObjectiveC of string
   | Swift
+  | Solidity
   | Perl | Python | Ruby | Lua | R
   | Erlang | Go | Rust
   | Beta
